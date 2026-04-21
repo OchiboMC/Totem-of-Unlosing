@@ -1,0 +1,8 @@
+{
+  "mcdutil.createFile.fileTemplate": {
+    "function": [
+      "#> %fileResourcePath%",
+      "## %cursor%",
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "use_totem_of_unlosing_protected": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:music_disc_13",
+          "predicates": {
+            "minecraft:custom_data": {
+              "totem_of_unlosing_protected": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ocb.tou:on_use/"
+  }
+}

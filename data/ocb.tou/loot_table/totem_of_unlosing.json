@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:item_model": "ocb.tou:totem_of_unlosing",
+                "minecraft:item_name": {
+                  "translate": "tou.item.totem_of_unlosing"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "totem_of_unlosing": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

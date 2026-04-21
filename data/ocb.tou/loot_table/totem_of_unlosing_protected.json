@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:item_model": "ocb.tou:totem_of_unlosing",
+                "minecraft:item_name": {
+                  "translate": "tou.item.totem_of_unlosing"
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:lore": [
+                  {
+                    "translate": "tou.item.totem_of_unlosing.protected_desc",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                "minecraft:consumable": {
+                  "consume_seconds": 0,
+                  "animation": "none",
+                  "sound": "minecraft:intentionally_empty",
+                  "has_consume_particles": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "totem_of_unlosing_protected": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
