@@ -20,7 +20,7 @@
 - また、トーテムは60スロット分までアイテムを保存できますが、超過分のアイテムは死亡時にドロップされます。
 
 ### 導入方法
-[こちら](https://github.com/OchiboMC/Totem-of-Unlosing/releases/tag/v1.0.0)より「Totem-of-Unlosing.zip」を入手し、解凍して導入してください。
+[こちら](https://github.com/OchiboMC/Totem-of-Unlosing/releases/)より「Totem-of-Unlosing.zip」を入手し、解凍して導入してください。
 
 ### バグを発見した場合
 [こちら](https://github.com/OchiboMC/Totem-of-Unlosing/issues)に報告して下さい。
