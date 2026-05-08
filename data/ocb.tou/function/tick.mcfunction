@@ -1,6 +1,6 @@
 #> ocb.tou:tick
 # keepinventoryをonに
-    gamerule keepInventory true
+    gamerule keep_inventory true
 
 # playerTick
     execute as @a at @s run function ocb.tou:player_tick
