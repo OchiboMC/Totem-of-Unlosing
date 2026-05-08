@@ -1,7 +1,0 @@
-{
-  "pack": {
-    "description": "Adding a totem that protects your items from being lost on death.",
-    "min_format": [75, 0],
-    "max_format": [75, 0]
-  }
-}
